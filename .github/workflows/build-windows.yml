@@ -28,7 +28,7 @@ jobs:
         pyinstaller PlaneFight_Windows.spec --clean
     
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: PlaneFight-Windows-EXE
         path: dist/打飞机游戏.exe
